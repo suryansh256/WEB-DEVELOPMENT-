@@ -1,0 +1,176 @@
+
+/* BASIC SETTINGS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+
+
+}
+
+
+
+/* NAVBAR */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #111;
+}
+
+.logo {
+    color: red;
+    font-size: 30px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: red;
+}
+
+
+/* BANNER */
+
+.banner {
+    height: 450px;
+    background-image: url("https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1600");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner-content h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.banner-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+.info {
+    background-color: #555;
+    color: white;
+}
+
+
+/* MOVIE SECTION */
+
+.movies {
+    padding: 25px 40px;
+}
+
+.movies h2 {
+    margin-bottom: 20px;
+}
+
+.movie-container {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+}
+
+.movie {
+    min-width: 200px;
+    height: 130px;
+    transition: transform 0.3s;
+}
+
+.movie img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.movie:hover {
+    transform: scale(1.08);
+}
+
+
+/* FOOTER */
+
+footer {
+    padding: 40px;
+    color: gray;
+    text-align: center;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        gap: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .banner {
+        height: 350px;
+        padding: 20px;
+    }
+
+    .banner-content h1 {
+        font-size: 30px;
+    }
+
+    .banner-content p {
+        font-size: 15px;
+    }
+
+    .movies {
+        padding: 20px;
+    }
+
+    .movie {
+        min-width: 150px;
+        height: 100px;
+    }
+
+}
