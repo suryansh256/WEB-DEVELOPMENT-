@@ -1,0 +1,93 @@
+nav {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 249);
+    overflow: hidden;
+    padding-top:5px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.09);
+}
+nav a {
+padding-left: 36px;
+  text-align:right;
+  text-decoration:black;
+  font-family: Arial, Helvetica, sans-serif;
+color: rgb(0, 0, 0);
+outline-color: black;
+margin-top: 35px;
+margin-left: 100px;
+justify-content:flex-end;
+}
+
+    
+
+.logo img{
+    width: 100px;
+height: 110%;
+padding-bottom:5px;
+
+
+}
+body {
+    background-color: rgb(255, 255, 255);
+
+}
+.hero-text h4 {
+color: rgb(201, 98, 19);
+    padding-top: 15px;
+   
+}
+.hero-img{
+    display: flex;
+    align-items: center;
+   gap: 15px;
+}
+
+.hero-img img{
+    width:210px;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    align-items: center;
+
+}
+.hero-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+}
+.hero {
+  display: flex;               /* puts text and cards side by side */
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.hero-text { flex: 1; }
+
+.boxes {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  padding-top: 20px;
+}
+.boxes img {
+    width: 50px;
+    height: 50px;
+   align-items: flex-start;
+   
+}
+
+.card {
+  border-radius: 50px;
+  flex: 1 1 calc(50% - 20px);
+  box-sizing: border-box;
+  min-height: 200px;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.09);
+  
+}

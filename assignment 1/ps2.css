@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  background-image: url(https://cdn.itm.edu/assets/MBA_Banner_063f51dcdd.avif);
+  background-attachment: fixed;
+  background-size: cover;           
+  background-position: center;
+}
+
+
+nav {
+  height: 90px;
+  width: 100%;
+  background-color: white;
+  overflow: hidden;                  
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.left img {
+  float: left;
+  width: 150px;
+  height: auto;
+  padding: 0 10px;
+  margin-top: 20px;
+}
+
+nav a {
+  float: left;
+  padding: 0 15px;
+  line-height: 90px;                 
+  text-decoration: none;
+  color: black;
+}
+
+nav a.apply {
+  line-height: normal;
+  padding: 10px 20px;
+  margin-top: 25px;
+  background: #a02a54;
+  color: #fff;
+  border-radius: 10px;
+}
+
+
+.hero-text h1 {
+  padding-top: 60px;
+  color: white;
+}
+
+.hero-text h1 span {
+  text-align: center;
+  background-color: #b01855;
+  padding: 5px 12px;
+  border-radius: 5px;
+  color: white;
+}
+
+.hero-text ul {
+  padding-top: 60px;
+  padding-left: 25px;
+  line-height: 2;
+  font-size: 18px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.hero-text button {
+  border-radius: 15px;
+  background-color: #c1b5ba;
+  color: black;
+}
+
+.hero-input {
+  position: absolute;
+  top: 20%;
+  right: 40px;                      
+  width: 300px;
+  height: 550px;
+  background-color: white;
+  text-align: center;
+  padding-right: 30px;
+  border-radius: 15px;
+}
+
+
+.hero-next1 {
+  padding-top: 50px;
+  width: 100%;                      
+  min-height: 50px;                  
+  background-color: white;
+}
+
+.hero-next1 img {
+  width: 600px;
+  max-width: 100%;
+  height: auto;                   
+}
