@@ -1,0 +1,84 @@
+.box{
+    height: 700px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+    position: relative;
+    left: 600px;
+    
+}
+#book{
+    text-align: center;
+    background-color: aqua;
+    position: relative;
+    left: 210px;
+}
+.box1{
+    height: 700px;
+    width: 500px;
+    position: relative;
+    left: 530px;
+    bottom: 645px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+#book1{
+    text-align: center;
+    background-color: aqua;
+    position: relative;
+    left: 210px;
+}
+.box2{
+    height: 700px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+    position: relative;
+    left: 530px;
+    bottom: 645px;   
+}
+#book2{
+    text-align: center;
+    background-color: aqua;
+    position: relative;
+    left: 210px;
+}
+.box3{
+    height: 700px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+    position: relative;
+    top: 100px;
+    right: 1066px;   
+}
+#book3{
+    text-align: center;
+    background-color: aqua;
+    position: relative;
+    left: 210px;
+}
+.box4{
+    height: 700px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+    position: relative;
+    bottom: 663px;
+    left: 534px;   
+}
+#book4{
+    text-align: center;
+    background-color: aqua;
+    position: relative;
+    left: 210px;
+}
+.box5{
+    height: 700px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+    position: relative;
+    bottom: 663px;
+    left: 534px;   
+}
+#book5{
+    text-align: center;
+    background-color: aqua;
+    position: relative;
+    left: 210px;
+}

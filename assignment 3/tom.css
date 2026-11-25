@@ -1,0 +1,35 @@
+img {
+    width: 150px;
+    transition: 2s;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jerry {
+    margin-left: 80px;
+    margin-top: 260px;
+}
+.tom{
+   margin-left: 80px;
+    margin-top: 200px;
+
+
+}
+body{
+    background-color: black;
+}
+
+body:hover .jerry {
+    transform: translateX(800px);
+    transition-delay: 2s;
+
+}
+
+body:hover .tom {
+    transform: translateX(-800px);
+      transition-delay: 2s;
+}
