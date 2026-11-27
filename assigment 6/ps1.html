@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="ps1.css">
+</head>
+<body>
+
+    <header>
+        <h1>Student Management System</h1>
+        <p>Manage student records easily</p>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <h2>Add Student</h2>
+
+            <form id="studentForm">
+                <input type="text" id="name" placeholder="Student Name" required>
+
+                <input type="email" id="email" placeholder="Email Address" required>
+
+                <input type="text" id="course" placeholder="Course" required>
+
+                <input type="number" id="age" placeholder="Age" min="1" max="120" required>
+
+                <button type="submit" id="submitBtn">Add Student</button>
+                <button type="button" id="cancelBtn" hidden>Cancel Edit</button>
+            </form>
+        </section>
+
+        <section class="controls">
+            <input type="text" id="search" placeholder="Search by name or course">
+
+            <select id="courseFilter">
+                <option value="">All Courses</option>
+            </select>
+
+            <button id="sortBtn">Sort by Age</button>
+        </section>
+
+        <h3 id="totalStudents">Total Students: 0</h3>
+
+        <p id="loading">Loading students...</p>
+        <p id="error"></p>
+
+        <section id="studentList"></section>
+    </main>
+
+    <script src="ps1.js"></script>
+</body>
+</html>

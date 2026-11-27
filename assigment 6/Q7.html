@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function calculateSum(a, b) {
+    return new Promise((resolve) => {
+        resolve(a + b);
+    });
+}
+
+async function showSum() {
+    let result = await calculateSum(10, 20);
+    console.log(result);
+}
+
+showSum();
+</script>
+</html>
