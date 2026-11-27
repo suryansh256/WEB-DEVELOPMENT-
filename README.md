@@ -1,2 +1,2 @@
-# WEB-DEVELOPMENT-
-Jerry sander 
+# WEB-DEVELOPMENT-HTML,CSS,JS
+Jerry sanders
