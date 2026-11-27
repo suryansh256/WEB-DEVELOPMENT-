@@ -1,0 +1,114 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #700202;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav {
+    margin-top: 10px;
+}
+nav img {
+    float: left;
+  width: 250px;
+  height: 100px;
+  padding: 0 10px;
+  position: relative;
+  bottom: 100px;
+
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    margin-left: 5px;
+}
+
+nav a:hover {
+    color: rgb(0, 0, 0);
+}
+
+main {
+    padding: 20px;
+}
+
+section, aside {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #700202;
+}
+
+img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+button {
+    padding: 12px;
+    background-color: #700202;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #700202;
+}
+
+footer {
+    text-align: center;
+    background-color: #700202;
+    color: white;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    video {
+        max-width: 100%;
+    }
+}
