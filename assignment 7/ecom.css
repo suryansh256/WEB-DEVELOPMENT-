@@ -1,0 +1,269 @@
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header img{
+      float: left;
+  width: 150px;
+  height: 100px;
+  padding: 0 10px;
+  position: relative;
+  bottom: 100px;
+  border-radius:70px;
+  margin-top: 20px;
+
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+header p {
+    margin-bottom: 15px;
+}
+
+.cart-info {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.separator {
+    margin: 0 8px;
+}
+
+.cart-info button {
+    margin-left: 10px;
+}
+
+/* Main Section */
+main {
+    width: 92%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+/* Controls */
+.controls {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+input,
+select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.controls input {
+    flex: 2;
+    min-width: 180px;
+}
+
+.controls select {
+    flex: 1;
+    min-width: 150px;
+}
+
+/* Buttons */
+button {
+    padding: 11px 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #ff0000;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #000000;
+}
+/* Product Image Hover Effect */
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(0.90);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Product Container */
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(220px, 1fr)
+    );
+    gap: 20px;
+}
+
+/* Product Card */
+.product-card {
+    background-color: white;
+    padding: 18px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-card img {
+    width: 150px;
+    height: 160px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    min-height: 40px;
+}
+
+.product-card p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.product-card .price {
+    font-size: 19px;
+    font-weight: bold;
+    color: #15803d;
+}
+
+.product-card button {
+    margin-top: auto;
+    width: 100%;
+}
+
+/* Load More */
+#loadMoreBtn {
+    display: block;
+    margin: 30px auto;
+}
+
+/* Loading and Error */
+#loading,
+#error {
+    text-align: center;
+    margin: 20px;
+}
+
+#error {
+    color: #dc2626;
+}
+
+/* Cart Section */
+#cartSection {
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+#cartSection h2 {
+    margin-bottom: 20px;
+}
+
+#cartSection h3 {
+    margin-top: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.remove-btn {
+    background-color: #dc2626;
+}
+
+.remove-btn:hover {
+    background-color: #b91c1c;
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Hidden Elements */
+[hidden] {
+    display: none !important;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    .controls {
+        flex-direction: column;
+    }
+
+    .controls input,
+    .controls select {
+        width: 100%;
+    }
+
+    .product-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+    }
+
+    .product-card {
+        padding: 12px;
+    }
+
+    .product-card img {
+        width: 110px;
+        height: 120px;
+    }
+
+    .product-card h3 {
+        font-size: 14px;
+    }
+
+    .cart-item {
+        flex-wrap: wrap;
+    }
+
+}
